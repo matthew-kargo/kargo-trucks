@@ -13,6 +13,7 @@ import (
 type Resolver struct{
 	Trucks []*model.Truck
 	Shipments []*model.Shipment
+	Email []*model.Email
 }
 
 func (r *Resolver) Init() {

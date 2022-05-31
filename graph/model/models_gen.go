@@ -2,6 +2,11 @@
 
 package model
 
+type Email struct {
+	ID    string `json:"id"`
+	Email string `json:"email"`
+}
+
 type Shipment struct {
 	ID           string  `json:"id"`
 	Name         string  `json:"name"`
